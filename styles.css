@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --laranja: #EB9B00;
+    --azul-de: linear-gradient(97.54deg, #002F52 35.94%, #326589 165.37%);
+    --fundo-cor: #EBECEE;
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'Josefin Sans';
+    --azul-descricao: #002F52;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.titulo__blog {
+    text-align: center;
+    padding: 1em;
+}
+
+.tudo {
+    text-align: center;
+    background-color: #002F52;
+    color: aliceblue;
+    padding: 15em;
+}
+
+.descri {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.info{
+    padding: 2em;
+    color: #C0C0C0;
+}
+
+.ans, .bun {
+    padding: 0 0 0 2em;
+}
+
+.negrito {
+    padding: 1em;
+}
+
+.Inta {
+    padding: 2em 0 0 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+}
